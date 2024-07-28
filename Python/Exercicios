@@ -1,0 +1,82 @@
+"""Exercicio1
+#pedir dois número ao usuário#
+numero1 = int(float(input("Por favor digite um numero:")))
+numero2 = int(float(input("Por favor digite um numero:")))
+
+
+#realize as principais operações#
+soma = numero1 + numero2
+sub = numero1 - numero2
+mul = numero1 * numero2
+div = numero1 // numero2
+#printa os resultados#
+print(soma)
+print(sub)
+print(mul)
+print(div)"""
+
+
+"""#Exercicio3
+#a quantidade de quilômetros#
+KM = float(input("Coleque a qtde de Quilometros:"))
+
+
+#transformação em  
+metros = KM * 1000
+centimetros = KM * 100000
+milimetros = KM * 1000000
+
+
+#exibir os resultados#
+print(metros)
+print(centimetros)
+print(milimetros)"""
+
+
+"""Exercicio4#
+#a quantidade litros e distancia #
+Litros = float(input("Coloque a qtde de Litros:"))
+Distancia = float(input("Coloque a distancia:"))
+Media = Litros // Distancia
+print(Media)"""
+
+
+"""#Exercicio5#
+#Distancia da viagem#
+distancia = float(input("Coloque o tempo de viagem em KM:"))
+
+
+#Tempo da viagem salvo como variavel#
+aviao = distancia  / 600  
+carro = distancia  / 100
+onibus = distancia  / 80
+
+
+# Exibe os resultados
+print(aviao)"""
+
+
+"""#Exercicio6#
+#Solicitar peso e altura ao usuaário #
+Peso = float(input("Coloque seu peso:"))
+Altura = float(input("Coloque seu altura:"))
+IMC = Peso / (Altura * Altura)
+print(IMC)"""
+
+
+"""#Exercicio7#
+valor = float(input("Quanto você ganha por hora:"))
+horas = float(input("Numero de horas trabalhada por mês"))
+Salario = valor * horas
+print(Salario)"""
+
+
+"""#Exercicio9#
+us1 = (input("Por favor coloque o seu nome:"))
+#print
+msg = "Olá"
+msg1 = "Como voce está hoje"
+
+
+#Utiliza uma f-string para concatenar as variáveis#
+print(f"{msg} {us1}, {msg1}")""""
